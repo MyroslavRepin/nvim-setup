@@ -66,3 +66,4 @@ A modern Neovim setup with LSP support, fuzzy finding, file tree navigation, and
 
 3. LSP servers will be installed via Mason on first launch.
 
+
