@@ -9,9 +9,12 @@ A modern Neovim setup with LSP support, fuzzy finding, file tree navigation, and
 ## 🎨 Theme & UI
 
 - **[catppuccin](https://github.com/catppuccin/nvim)** - Soothing pastel theme
+  - **Available flavours:** `mocha` (default), `macchiato`, `frappe`, `latte`
+  - Change flavour in `lua/plugins/catppuccin.lua`
 - **[lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)** - Blazing fast statusline (dracula theme)
 - **[alpha-nvim](https://github.com/goolord/alpha-nvim)** - Fast and customizable dashboard
 - **[nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)** - File icons
+- **[indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)** - Visual indent guides
 
 ## 🔍 Navigation & Search
 
@@ -21,6 +24,8 @@ A modern Neovim setup with LSP support, fuzzy finding, file tree navigation, and
 - **[telescope-ui-select](https://github.com/nvim-telescope/telescope-ui-select.nvim)** - Enhanced UI select with Telescope
 - **[neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)** - File explorer
   - `<C-n>` - Toggle file tree
+- **[which-key.nvim](https://github.com/folke/which-key.nvim)** - Keybinding hints
+  - Press `<Space>` and wait to see available keybindings
 
 ## 💻 LSP & Language Support
 
@@ -40,11 +45,24 @@ A modern Neovim setup with LSP support, fuzzy finding, file tree navigation, and
 - **[nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)** - Advanced syntax highlighting and code parsing
   - **Languages:** Lua, JavaScript
 
+## ⚡ Productivity
+
+- **[Comment.nvim](https://github.com/numToStr/Comment.nvim)** - Easy code commenting
+  - `gcc` - Toggle comment on line
+  - `gc` (visual mode) - Toggle comment on selection
+- **[nvim-autopairs](https://github.com/windwp/nvim-autopairs)** - Auto-close brackets and quotes
+- **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)** - Git integration with signs and hunks
+  - `]c` / `[c` - Navigate git changes
+
 ## ⚙️ Settings
 
 - **Leader key:** `Space`
 - **Indentation:** 2 spaces
 - **Tab expansion:** Enabled
+- **Line numbers:** Enabled
+- **Clipboard:** Synced with system clipboard
+- **Search:** Smart case-insensitive search
+- **Confirm on quit:** Ask to save unsaved changes
 - **Diagnostics:** Inline messages with signs and underlines
 
 ## 📋 Dependencies
